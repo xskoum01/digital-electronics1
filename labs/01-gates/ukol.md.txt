@@ -1,4 +1,4 @@
-# Lab 1: VLADIMIR_SKOUMALLL
+# Lab 1: VLADIMIR_SKOUMAL
 
 ### De Morgan's laws
 
