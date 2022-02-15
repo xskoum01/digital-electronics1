@@ -6,3 +6,4 @@
 Basic text.
 **BOLD.**
 *Kurzíva*
+`Proměnná`
