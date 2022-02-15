@@ -4,4 +4,5 @@
 ### HEADER
 #### HEADER
 Basic text.
-**BOLD**
+**BOLD.**
+*Kurzíva*
