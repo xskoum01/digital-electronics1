@@ -47,7 +47,7 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![photos/edaplayground.png]()
+   ![eda](photos/edaplayground.png)
 
 3. Link to your public EDA Playground example:
 
