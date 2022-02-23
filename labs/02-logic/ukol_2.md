@@ -39,7 +39,7 @@
         -- If false, then report an error
         report "Input combination 0110,0101 FAILED" severity error;
 
- 		  -- Second test case
+ 		-- Second test case
         s_b <= "0110";  s_a <= "1000";   wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
