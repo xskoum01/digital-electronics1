@@ -40,9 +40,7 @@
         report "Input combination 0110,0101 FAILED" severity error;
 
  		-- Second test case
-        s_b <= "0110"; 
-        s_a <= "1000";    
-        wait for 100 ns;
+        s_b <= "0110";  s_a <= "1000";   wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '0') and
@@ -51,9 +49,7 @@
         report "Input combination 0110,1000 FAILED" severity error;
         
         -- Third test case
-        s_b <= "0010"; 
-        s_a <= "0010";    
-        wait for 100 ns;
+        s_b <= "0010";   s_a <= "0010";   wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '1') and
