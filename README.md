@@ -1,4 +1,4 @@
 # digital-electronics1
 # GitHUB
-Basic text.
+This is my GitHub account.
 
