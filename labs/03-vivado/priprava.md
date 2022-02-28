@@ -1,6 +1,12 @@
+## Nexys-7
 
 ![desticka nexys7](images/deska.png)
 
+## SWITCHE A LEDKY
+
 ![zapojeni prepinace a ledky](images/zapojeni.png)
 
-![Screenshot od EDA Playground](images/screenshot_eda.png)
+![velké zapojení](images/velkezapojeni.png)
+
+
+   
