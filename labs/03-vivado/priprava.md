@@ -6,6 +6,8 @@
 
 ![zapojeni prepinace a ledky](images/zapojeni.png)
 
+## SWITCHE A LEDKY piny
+
 ![velké zapojení](images/velkezapojeni.png)
 
 
