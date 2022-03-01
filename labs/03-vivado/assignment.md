@@ -37,5 +37,5 @@ end architecture Behavioral;
 #set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { LED[2] }]; #IO_L17N_T2_A25_15 Sch=led[2]
 ...
 ```
->>>>>>> 36e4592c9af2cceb87722451684f2f63fac41804
+
 
