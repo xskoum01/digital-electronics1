@@ -1,43 +1,40 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 03/01/2022 02:12:40 PM
--- Design Name: 
--- Module Name: multiplexer_xbit - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+------------------------------------------------------------
+--
+-- Example of 4-bit binary comparator using the when/else
+-- assignments.
+-- EDA Playground
+--
+-- Copyright (c) 2020-Present Tomas Fryza
+-- Dept. of Radio Electronics, Brno Univ. of Technology, Czechia
+-- This work is licensed under the terms of the MIT license.
+--
+------------------------------------------------------------
 
+library ieee;
+use ieee.std_logic_1164.all;
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
+------------------------------------------------------------
+-- Entity declaration for multiplexer
+------------------------------------------------------------
 entity multiplexer_xbit is
---  Port ( );
-end multiplexer_xbit;
+    port(
+        a_i           : in  std_logic_vector(3 - 1 downto 0); -- data a
+        b_i           : in  std_logic_vector(3 - 1 downto 0); -- data b
+        c_i           : in  std_logic_vector(3 - 1 downto 0); -- data c
+        d_i           : in  std_logic_vector(3 - 1 downto 0); -- data d
+        sel_i         : in  std_logic_vector(3 - 1 downto 0); -- data sel
+        f_o           : in  std_logic_vector(3 - 1 downto 0) -- output
+    );
+    
+end entity multiplexer_xbit;
 
+------------------------------------------------------------
+-- Architecture body for multiplexer_xbit
+------------------------------------------------------------
 architecture Behavioral of multiplexer_xbit is
-
 begin
-
-
-end Behavioral;
+   y_o <= a_i when (addr_i = "000" and en_i = '1') else
+       b_i when (addr_i = "001" and en_i = '1') else
+       c_i when (addr_i = "010" and en_i = '1') else
+       d_i;  
+end architecture Behavioral;
