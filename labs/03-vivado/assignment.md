@@ -1,6 +1,5 @@
 # Lab 3: VLADIMÍR SKOUMAL
 
-=======
 
 ### Three-bit wide 4-to-1 multiplexer
 
