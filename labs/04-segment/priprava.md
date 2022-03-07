@@ -1,6 +1,6 @@
 ## Preparation tasks (done before the lab at home)
 
-![7display/](images/7dis)
+![7display/](images/7dis.png)
 
 The Nexys A7 board provides two four-digit common anode seven-segment LED displays (configured to behave like a single eight-digit display).
 
