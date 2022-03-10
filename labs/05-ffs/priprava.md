@@ -7,8 +7,8 @@
    https://editor.codecogs.com/
    \begin{align*}
        q_{n+1}^D =&~D \\
-       q_{n+1}^{JK} =& \\![jk]es/jk.png)
-       q_{n+1}^T =& \\![t](images/t.png)
+       q_{n+1}^{JK} =&  ![jk]images/jk.png)
+       q_{n+1}^T =&  ![t](images/t.png)
    \end{align*}
    -->
 
