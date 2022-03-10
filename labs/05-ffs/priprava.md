@@ -2,17 +2,17 @@
 
 1. Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents output value after the clock edge.
 
-   ![Characteristic equations](images/eq_flip_flops.png)
-   <!--
+   ![rising](images/D-JK-T.png)
+   
    https://editor.codecogs.com/
    \begin{align*}
        q_{n+1}^D =&~D \\
-       q_{n+1}^{JK} =&  ![jk]images/jk.png)
-       q_{n+1}^T =&  ![t](images/t.png)
+       q_{n+1}^{JK} =&  
+       q_{n+1}^T =&  
    \end{align*}
    -->
 
-![rising](images/D-JK-T.png)
+
 
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
