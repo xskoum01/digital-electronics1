@@ -12,6 +12,8 @@
    \end{align*}
    -->
 
+![rising](images/D-JK-T.png)
+
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
