@@ -7,8 +7,8 @@
    https://editor.codecogs.com/
    \begin{align*}
        q_{n+1}^D =&~D \\
-       q_{n+1}^{JK} =& \\
-       q_{n+1}^T =& \\
+       q_{n+1}^{JK} =& \\![jk]es/jk.png)
+       q_{n+1}^T =& \\![t](images/t.png)
    \end{align*}
    -->
 
@@ -16,28 +16,28 @@
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | `q(n+1)` has the same level as `d` |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | jeste netusim |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1/0 | jeste netusim |
 
    **JK-type FF**
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | reset |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | reset |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | set |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | set |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | toggle |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | toggle |
 
    **T-type FF**
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1| not change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0| 1| invert (toggle) |
+   | ![rising](images/eq_uparrow.png) | 1 | 1| 0| invert (toggle) |
 
 <a name="part1"></a>
