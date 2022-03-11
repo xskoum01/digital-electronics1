@@ -11,8 +11,8 @@
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
    | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | `q(n+1)` has the same level as `d` |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | invert |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | no change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | `q(n+1)` invert `d`|
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | `q(n+1)` has the same level as `d` |
 
    **JK-type FF**
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
