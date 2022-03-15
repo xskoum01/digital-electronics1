@@ -17,7 +17,19 @@ begin
     p_t_ff_rst : process(clk)
     begin
 
-        -- WRITE YOUR CODE HERE
+        if rising_edge(clk) then  -- Synchronous process
+
+            -- USE HIGH-ACTIVE RESET HERE
+            if (rst = '1')then
+                s_q <= '0';
+            else
+                if (t = '0')then
+                    s_q <= s_q;
+                else
+                    s_q <= not t;        
+                end if;               
+            end if;
+       end if;
 
     end process p_t_ff_rst;
 
@@ -28,10 +40,14 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Try to simulate both flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![your figure](images/flipflop.png)
 
 ### Shift register
 
 1. Image of the shift register `top` level schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
+<<<<<<< HEAD
    ![your figure](images/vlastni.png)
+=======
+   ![your figure](images/shift.png)
+>>>>>>> 4ad62817135d58f625efedd1b208ef59a14a9338
