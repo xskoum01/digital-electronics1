@@ -17,7 +17,19 @@ begin
     p_t_ff_rst : process(clk)
     begin
 
-        -- WRITE YOUR CODE HERE
+        if rising_edge(clk) then  -- Synchronous process
+
+            -- USE HIGH-ACTIVE RESET HERE
+            if (rst = '1')then
+                s_q <= '0';
+            else
+                if (t = '0')then
+                    s_q <= s_q;
+                else
+                    s_q <= not t;        
+                end if;               
+            end if;
+       end if;
 
     end process p_t_ff_rst;
 
