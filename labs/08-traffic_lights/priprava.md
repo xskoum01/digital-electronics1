@@ -12,3 +12,4 @@
 <a name="part1"></a>
 
 ![RGB](images/zapojeni.png)
+![text](images/text.png)
