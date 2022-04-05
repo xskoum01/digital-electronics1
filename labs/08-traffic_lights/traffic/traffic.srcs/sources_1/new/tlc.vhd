@@ -76,15 +76,15 @@ begin
     -- USE THIS PART FOR FASTER/SHORTER SIMULATION
     s_en <= '1';
     -- USE THE FOLLOWING PART FOR THE IMPLEMENTATION
- --   clk_en0 : entity work.clock_enable
- --       generic map(
- --           g_MAX => 250 -- 250 ms / (1/100 MHz)
- --       )
- --       port map(
- --           clk   => clk,
- --           reset => reset,
- --           ce_o  => s_en
- --       );
+  -- clk_en0 : entity work.clock_enable
+    --    generic map(
+      --      g_MAX => 25000000 -- 250 ms / (1/100 MHz)
+        --)
+        --port map(
+          --  clk   => clk,
+           -- reset => reset,
+            --ce_o  => s_en
+        --);
 
     --------------------------------------------------------
     -- p_traffic_fsm:
