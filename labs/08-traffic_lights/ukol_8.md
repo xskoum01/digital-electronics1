@@ -66,7 +66,7 @@
                         end if;    
                         
                      when SOUTH_GO =>   
-                        if (s_cnt < c_DELAY_1SEC) then
+                        if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
                             s_state <= SOUTH_WAIT;
@@ -74,7 +74,7 @@
                         end if;  
                       
                       when SOUTH_WAIT =>   -- WRITE OTHER STATES HERE
-                        if (s_cnt < c_DELAY_1SEC) then
+                        if (s_cnt < c_DELAY_2SEC) then
                             s_cnt <= s_cnt + 1;
                         else
                             s_state <=STOP1;
