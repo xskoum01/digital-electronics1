@@ -53,7 +53,7 @@
                         if (s_cnt < c_DELAY_2SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <=STOP2;
+                            s_state <= STOP2;
                             s_cnt <= c_ZERO;    
                         end if;
                         
@@ -61,20 +61,20 @@
                         if (s_cnt < c_DELAY_1SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <=SOUTH_GO;
+                            s_state <= SOUTH_GO;
                             s_cnt <= c_ZERO;    
                         end if;    
                         
                      when SOUTH_GO =>   
-                        if (s_cnt < c_DELAY_1SEC) then
+                        if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <=SOUTH_WAIT;
+                            s_state <= SOUTH_WAIT;
                             s_cnt <= c_ZERO;    
                         end if;  
                       
                       when SOUTH_WAIT =>   -- WRITE OTHER STATES HERE
-                        if (s_cnt < c_DELAY_1SEC) then
+                        if (s_cnt < c_DELAY_2SEC) then
                             s_cnt <= s_cnt + 1;
                         else
                             s_state <=STOP1;
