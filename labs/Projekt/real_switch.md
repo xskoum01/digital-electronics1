@@ -11,3 +11,12 @@ Multi/demultiplexor
 | 01 | Speed of section 1 |
 | 10 | Speed of section 2 |
 | 11 | Speed of section 3 |
+
+mine
+
+| **Switches combination** | **Displayed speed** |
+| :-: | :-: |
+| 00 | Average speed |
+| 01 | Speed of section 3 |
+| 10 | Speed of section 2 |
+| 11 | Speed of section 1 |
