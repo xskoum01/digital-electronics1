@@ -5,6 +5,9 @@ Původní uut
 ![real switch](simulations/real_switch_uut_puvodni.png)
 
 
+### Description
+Multi/demultiplexor
+
 | **Switches combination** | **Displayed speed** |
 | :-: | :-: |
 | 00 | Average speed |
