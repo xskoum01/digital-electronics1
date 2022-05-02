@@ -20,3 +20,10 @@ mine
 | 01 | Speed of section 3 |
 | 10 | Speed of section 2 |
 | 11 | Speed of section 1 |
+
+| **Switches combination** | **Displayed speed** |
+| :-: | :-: |
+| 00 | Speed by 4. Sensor |
+| 01 | Speed by 3. Sensor |
+| 10 | Speed by 2. Sensor |
+| 11 | Speed by 1. Sensor |
